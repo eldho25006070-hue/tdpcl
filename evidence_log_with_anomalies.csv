@@ -1,0 +1,93 @@
+Event_ID,Timestamp,RFID_ID,Case_ID,Location,Action,Handler,Flag_Unauthorized_Location,Flag_Odd_Hour,Prev_Timestamp,Prev_Location,Gap_Minutes,Flag_Impossible_Speed,Flag_Duplicate_Scan,Anomaly_Score,Flag_Statistical_Outlier,Is_Anomaly,Anomaly_Reasons
+EVT0000,2026-09-01 00:37:00,EB101,FIR-2026-1000,Storage Room B,Checked-Out,Officer C. Mehta,False,True,,,,False,False,0.028266730266939377,False,True,Odd Hour
+EVT0001,2026-09-01 04:05:00,EB101,FIR-2026-1000,Transport Vehicle,Checked-Out,Officer C. Mehta,False,True,2026-09-01 00:37:00,Storage Room B,208.0,False,False,-0.02265834229462038,True,True,"Odd Hour, Statistical Outlier"
+EVT0002,2026-09-01 08:00:00,EB101,FIR-2026-1000,Crime Scene,Collected,Officer A. Rao,False,False,2026-09-01 04:05:00,Transport Vehicle,235.0,False,False,0.018800254264383254,False,False,
+EVT0003,2026-09-01 08:27:00,EB101,FIR-2026-1000,Personal Vehicle,Unauthorized Movement,UNKNOWN,True,False,2026-09-01 08:00:00,Crime Scene,27.0,False,False,-0.07889239445881613,True,True,"Unauthorized Location, Statistical Outlier"
+EVT0004,2026-09-01 08:54:00,EB101,FIR-2026-1000,Evidence Intake,Transferred,Officer C. Mehta,False,False,2026-09-01 08:27:00,Personal Vehicle,27.0,False,False,0.13668837753984142,False,False,
+EVT0005,2026-09-01 09:22:00,EB101,FIR-2026-1000,Storage Room A,Checked-Out,Officer B. Singh,False,False,2026-09-01 08:54:00,Evidence Intake,28.0,False,False,0.08522314082342902,False,False,
+EVT0006,2026-09-01 10:03:00,EB101,FIR-2026-1000,Forensic Lab,Received,Officer A. Rao,False,False,2026-09-01 09:22:00,Storage Room A,41.0,False,False,0.18742908084298637,False,False,
+EVT0007,2026-09-01 10:53:00,EB101,FIR-2026-1000,Storage Room A,Transferred,Lab Tech D. Iyer,False,False,2026-09-01 10:03:00,Forensic Lab,50.0,False,False,0.036448340384296674,False,False,
+EVT0008,2026-09-01 11:40:00,EB101,FIR-2026-1000,Court Room,Checked-Out,Officer A. Rao,False,False,2026-09-01 10:53:00,Storage Room A,47.0,False,False,0.20067659378301045,False,False,
+EVT0009,2026-09-01 11:41:00,EB101,FIR-2026-1000,Storage Room B,Checked-Out,Clerk G. Nair,False,False,2026-09-01 11:40:00,Court Room,1.0,True,False,0.15475398084781677,False,True,Impossible Speed
+EVT0010,2026-09-01 13:22:00,EB101,FIR-2026-1000,Transport Vehicle,Checked-In,Lab Tech E. Khan,False,False,2026-09-01 11:41:00,Storage Room B,101.0,False,False,0.09387383388220272,False,False,
+EVT0011,2026-09-01 13:42:00,EB101,FIR-2026-1000,Off-site (Unknown),Unauthorized Movement,UNKNOWN,True,False,2026-09-01 13:22:00,Transport Vehicle,20.0,False,False,-0.001375947230605301,True,True,"Unauthorized Location, Statistical Outlier"
+EVT0012,2026-09-01 14:09:00,EB101,FIR-2026-1000,Evidence Intake,Transferred,Clerk G. Nair,False,False,2026-09-01 13:42:00,Off-site (Unknown),27.0,False,False,0.15947027601786734,False,False,
+EVT0013,2026-09-01 14:49:00,EB101,FIR-2026-1000,Storage Room A,Returned,Lab Tech E. Khan,False,False,2026-09-01 14:09:00,Evidence Intake,40.0,False,False,0.11667892704992622,False,False,
+EVT0014,2026-09-02 01:18:00,EB102,FIR-2026-1001,Evidence Intake,Checked-Out,Officer A. Rao,False,True,,,,False,False,0.027231183094164724,False,True,Odd Hour
+EVT0015,2026-09-02 09:00:00,EB102,FIR-2026-1001,Crime Scene,Collected,Lab Tech D. Iyer,False,False,2026-09-02 01:18:00,Evidence Intake,462.0,False,False,-0.13621655842770597,True,True,Statistical Outlier
+EVT0016,2026-09-02 09:01:00,EB102,FIR-2026-1001,Evidence Intake,Received,Clerk G. Nair,False,False,2026-09-02 09:00:00,Crime Scene,1.0,True,False,0.11246295749804697,False,True,Impossible Speed
+EVT0017,2026-09-02 10:20:00,EB102,FIR-2026-1001,Storage Room A,Analyzed,Officer F. Verma,False,False,2026-09-02 09:01:00,Evidence Intake,79.0,False,False,0.053091703371702326,False,False,
+EVT0018,2026-09-02 10:50:00,EB102,FIR-2026-1001,Forensic Lab,Received,Officer H. Das,False,False,2026-09-02 10:20:00,Storage Room A,30.0,False,False,0.1565687388849964,False,False,
+EVT0019,2026-09-02 11:20:00,EB102,FIR-2026-1001,Storage Room A,Received,Clerk G. Nair,False,False,2026-09-02 10:50:00,Forensic Lab,30.0,False,False,0.15407814524654595,False,False,
+EVT0020,2026-09-02 12:12:00,EB102,FIR-2026-1001,Court Room,Checked-Out,Lab Tech E. Khan,False,False,2026-09-02 11:20:00,Storage Room A,52.0,False,False,0.16407503220669478,False,False,
+EVT0021,2026-09-02 13:18:00,EB102,FIR-2026-1001,Storage Room B,Checked-Out,Lab Tech D. Iyer,False,False,2026-09-02 12:12:00,Court Room,66.0,False,False,0.1166332761131133,False,False,
+EVT0022,2026-09-02 13:25:00,EB102,FIR-2026-1001,Transport Vehicle,Received,Lab Tech D. Iyer,False,False,2026-09-02 13:18:00,Storage Room B,7.0,False,False,0.09279248451843353,False,False,
+EVT0023,2026-09-02 14:36:00,EB102,FIR-2026-1001,Evidence Intake,Received,Lab Tech D. Iyer,False,False,2026-09-02 13:25:00,Transport Vehicle,71.0,False,False,0.0784709720187104,False,False,
+EVT0024,2026-09-02 15:33:00,EB102,FIR-2026-1001,Storage Room A,Returned,Officer B. Singh,False,False,2026-09-02 14:36:00,Evidence Intake,57.0,False,False,0.06360447355377286,False,False,
+EVT0025,2026-09-03 11:00:00,EB103,FIR-2026-1002,Crime Scene,Collected,Lab Tech E. Khan,False,False,,,,False,False,0.16689240739096134,False,False,
+EVT0026,2026-09-03 11:39:00,EB103,FIR-2026-1002,Evidence Intake,Transferred,Officer F. Verma,False,False,2026-09-03 11:00:00,Crime Scene,39.0,False,False,0.13862372882870733,False,False,
+EVT0027,2026-09-03 12:12:00,EB103,FIR-2026-1002,Storage Room A,Transferred,Lab Tech E. Khan,False,False,2026-09-03 11:39:00,Evidence Intake,33.0,False,False,0.1338848522455981,False,False,
+EVT0028,2026-09-03 12:37:00,EB103,FIR-2026-1002,Forensic Lab,Checked-Out,Officer C. Mehta,False,False,2026-09-03 12:12:00,Storage Room A,25.0,False,False,0.1784083254373683,False,False,
+EVT0029,2026-09-03 12:57:00,EB103,FIR-2026-1002,Storage Room A,Transferred,Officer C. Mehta,False,False,2026-09-03 12:37:00,Forensic Lab,20.0,False,False,0.15087269871927073,False,False,
+EVT0030,2026-09-03 14:01:00,EB103,FIR-2026-1002,Court Room,Checked-In,Lab Tech E. Khan,False,False,2026-09-03 12:57:00,Storage Room A,64.0,False,False,0.13736521588409878,False,False,
+EVT0031,2026-09-03 15:06:00,EB103,FIR-2026-1002,Storage Room B,Analyzed,Officer A. Rao,False,False,2026-09-03 14:01:00,Court Room,65.0,False,False,0.15886246085583766,False,False,
+EVT0032,2026-09-03 15:31:00,EB103,FIR-2026-1002,Transport Vehicle,Received,Officer F. Verma,False,False,2026-09-03 15:06:00,Storage Room B,25.0,False,False,0.12713546909581203,False,False,
+EVT0033,2026-09-03 16:47:00,EB103,FIR-2026-1002,Evidence Intake,Analyzed,Officer B. Singh,False,False,2026-09-03 15:31:00,Transport Vehicle,76.0,False,False,0.08177925788726964,False,False,
+EVT0034,2026-09-03 17:11:00,EB103,FIR-2026-1002,Storage Room A,Checked-Out,Officer F. Verma,False,False,2026-09-03 16:47:00,Evidence Intake,24.0,False,False,0.04111107915056178,False,False,
+EVT0035,2026-09-03 17:47:00,EB103,FIR-2026-1002,Storage Room A,Returned,Officer H. Das,False,False,2026-09-03 17:11:00,Storage Room A,36.0,False,True,0.07154733355440746,False,True,Duplicate Scan
+EVT0036,2026-09-03 17:47:00,EB103,FIR-2026-1002,Forensic Lab,Received,Officer B. Singh,False,False,2026-09-03 17:47:00,Storage Room A,0.0,True,True,0.031522199071445045,False,True,"Impossible Speed, Duplicate Scan"
+EVT0037,2026-09-04 11:00:00,EB104,FIR-2026-1003,Crime Scene,Collected,Officer H. Das,False,False,,,,False,False,0.17474379183007344,False,False,
+EVT0038,2026-09-04 11:51:00,EB104,FIR-2026-1003,Evidence Intake,Transferred,Lab Tech D. Iyer,False,False,2026-09-04 11:00:00,Crime Scene,51.0,False,False,0.10728577369669268,False,False,
+EVT0039,2026-09-04 12:09:00,EB104,FIR-2026-1003,Storage Room A,Analyzed,Clerk G. Nair,False,False,2026-09-04 11:51:00,Evidence Intake,18.0,False,False,0.14477204657005843,False,False,
+EVT0040,2026-09-04 12:47:00,EB104,FIR-2026-1003,Forensic Lab,Analyzed,Lab Tech D. Iyer,False,False,2026-09-04 12:09:00,Storage Room A,38.0,False,False,0.1345028036448846,False,False,
+EVT0041,2026-09-04 13:15:00,EB104,FIR-2026-1003,Storage Room A,Checked-Out,Officer H. Das,False,False,2026-09-04 12:47:00,Forensic Lab,28.0,False,False,0.12871117450901814,False,False,
+EVT0042,2026-09-04 14:02:00,EB104,FIR-2026-1003,Court Room,Received,Officer B. Singh,False,False,2026-09-04 13:15:00,Storage Room A,47.0,False,False,0.16807834974231944,False,False,
+EVT0043,2026-09-04 14:54:00,EB104,FIR-2026-1003,Storage Room B,Transferred,Clerk G. Nair,False,False,2026-09-04 14:02:00,Court Room,52.0,False,False,0.1933643196203027,False,False,
+EVT0044,2026-09-04 15:37:00,EB104,FIR-2026-1003,Transport Vehicle,Checked-In,Clerk G. Nair,False,False,2026-09-04 14:54:00,Storage Room B,43.0,False,False,0.172217206342685,False,False,
+EVT0045,2026-09-04 16:26:00,EB104,FIR-2026-1003,Storage Room A,Returned,Officer H. Das,False,False,2026-09-04 15:37:00,Transport Vehicle,49.0,False,False,0.0992182347055468,False,False,
+EVT0046,2026-09-05 10:00:00,EB105,FIR-2026-1004,Crime Scene,Collected,Officer A. Rao,False,False,,,,False,False,0.19046871220483014,False,False,
+EVT0047,2026-09-05 10:49:00,EB105,FIR-2026-1004,Evidence Intake,Analyzed,Officer F. Verma,False,False,2026-09-05 10:00:00,Crime Scene,49.0,False,False,0.12018335848294093,False,False,
+EVT0048,2026-09-05 11:08:00,EB105,FIR-2026-1004,Storage Room A,Analyzed,Clerk G. Nair,False,False,2026-09-05 10:49:00,Evidence Intake,19.0,False,False,0.14577381006965817,False,False,
+EVT0049,2026-09-05 11:51:00,EB105,FIR-2026-1004,Forensic Lab,Checked-In,Officer A. Rao,False,False,2026-09-05 11:08:00,Storage Room A,43.0,False,False,0.1924698238610033,False,False,
+EVT0050,2026-09-05 12:13:00,EB105,FIR-2026-1004,Storage Room A,Checked-Out,Officer C. Mehta,False,False,2026-09-05 11:51:00,Forensic Lab,22.0,False,False,0.15049249051484015,False,False,
+EVT0051,2026-09-05 13:05:00,EB105,FIR-2026-1004,Court Room,Received,Lab Tech E. Khan,False,False,2026-09-05 12:13:00,Storage Room A,52.0,False,False,0.16698336438559547,False,False,
+EVT0052,2026-09-05 13:06:00,EB105,FIR-2026-1004,Storage Room B,Checked-Out,Lab Tech D. Iyer,False,False,2026-09-05 13:05:00,Court Room,1.0,True,False,0.09391317412584577,False,True,Impossible Speed
+EVT0053,2026-09-05 15:03:00,EB105,FIR-2026-1004,Storage Room A,Returned,Officer F. Verma,False,False,2026-09-05 13:06:00,Storage Room B,117.0,False,False,-0.015543784269383631,True,True,Statistical Outlier
+EVT0054,2026-09-06 09:00:00,EB106,FIR-2026-1005,Crime Scene,Collected,Officer A. Rao,False,False,,,,False,False,0.1807004786092265,False,False,
+EVT0055,2026-09-06 09:36:00,EB106,FIR-2026-1005,Evidence Intake,Checked-In,Officer A. Rao,False,False,2026-09-06 09:00:00,Crime Scene,36.0,False,False,0.16712458055830298,False,False,
+EVT0056,2026-09-06 10:07:00,EB106,FIR-2026-1005,Storage Room A,Analyzed,Lab Tech E. Khan,False,False,2026-09-06 09:36:00,Evidence Intake,31.0,False,False,0.11720766094565183,False,False,
+EVT0057,2026-09-06 10:49:00,EB106,FIR-2026-1005,Forensic Lab,Received,Lab Tech D. Iyer,False,False,2026-09-06 10:07:00,Storage Room A,42.0,False,False,0.12911384192538067,False,False,
+EVT0058,2026-09-06 11:25:00,EB106,FIR-2026-1005,Storage Room A,Received,Officer H. Das,False,False,2026-09-06 10:49:00,Forensic Lab,36.0,False,False,0.1366009938361566,False,False,
+EVT0059,2026-09-06 12:13:00,EB106,FIR-2026-1005,Court Room,Checked-Out,Officer C. Mehta,False,False,2026-09-06 11:25:00,Storage Room A,48.0,False,False,0.2008629059647727,False,False,
+EVT0060,2026-09-06 13:05:00,EB106,FIR-2026-1005,Storage Room B,Checked-In,Officer C. Mehta,False,False,2026-09-06 12:13:00,Court Room,52.0,False,False,0.2012633429925227,False,False,
+EVT0061,2026-09-06 13:15:00,EB106,FIR-2026-1005,Transport Vehicle,Checked-Out,Clerk G. Nair,False,False,2026-09-06 13:05:00,Storage Room B,10.0,False,False,0.16528865864566078,False,False,
+EVT0062,2026-09-06 14:14:00,EB106,FIR-2026-1005,Evidence Intake,Checked-Out,Lab Tech D. Iyer,False,False,2026-09-06 13:15:00,Transport Vehicle,59.0,False,False,0.09356099632469972,False,False,
+EVT0063,2026-09-06 14:39:00,EB106,FIR-2026-1005,Storage Room A,Checked-In,Officer F. Verma,False,False,2026-09-06 14:14:00,Evidence Intake,25.0,False,False,0.11701737940099133,False,False,
+EVT0064,2026-09-06 15:24:00,EB106,FIR-2026-1005,Forensic Lab,Checked-Out,Officer H. Das,False,False,2026-09-06 14:39:00,Storage Room A,45.0,False,False,0.13737790654788973,False,False,
+EVT0065,2026-09-06 15:48:00,EB106,FIR-2026-1005,Off-site (Unknown),Unauthorized Movement,UNKNOWN,True,False,2026-09-06 15:24:00,Forensic Lab,24.0,False,False,-0.020708971768056195,True,True,"Unauthorized Location, Statistical Outlier"
+EVT0066,2026-09-06 15:57:00,EB106,FIR-2026-1005,Storage Room A,Returned,Lab Tech D. Iyer,False,False,2026-09-06 15:48:00,Off-site (Unknown),9.0,False,False,0.0009157977855520638,False,False,
+EVT0067,2026-09-07 09:00:00,EB107,FIR-2026-1006,Crime Scene,Collected,Officer B. Singh,False,False,,,,False,False,0.15201379419424538,False,False,
+EVT0068,2026-09-07 09:53:00,EB107,FIR-2026-1006,Evidence Intake,Checked-Out,Lab Tech D. Iyer,False,False,2026-09-07 09:00:00,Crime Scene,53.0,False,False,0.07716451254060464,False,False,
+EVT0069,2026-09-07 10:05:00,EB107,FIR-2026-1006,Storage Room A,Received,Officer B. Singh,False,False,2026-09-07 09:53:00,Evidence Intake,12.0,False,False,0.09075890862529218,False,False,
+EVT0070,2026-09-07 10:14:00,EB107,FIR-2026-1006,Off-site (Unknown),Unauthorized Movement,UNKNOWN,True,False,2026-09-07 10:05:00,Storage Room A,9.0,False,False,-0.0003561435832702964,True,True,"Unauthorized Location, Statistical Outlier"
+EVT0071,2026-09-07 10:43:00,EB107,FIR-2026-1006,Forensic Lab,Transferred,Officer B. Singh,False,False,2026-09-07 10:14:00,Off-site (Unknown),29.0,False,False,0.16418479646628115,False,False,
+EVT0072,2026-09-07 11:14:00,EB107,FIR-2026-1006,Storage Room A,Analyzed,Officer B. Singh,False,False,2026-09-07 10:43:00,Forensic Lab,31.0,False,False,0.1251180875933865,False,False,
+EVT0073,2026-09-07 11:57:00,EB107,FIR-2026-1006,Court Room,Transferred,Lab Tech E. Khan,False,False,2026-09-07 11:14:00,Storage Room A,43.0,False,False,0.16946708589586362,False,False,
+EVT0074,2026-09-07 13:45:00,EB107,FIR-2026-1006,Storage Room B,Transferred,Officer C. Mehta,False,False,2026-09-07 11:57:00,Court Room,108.0,False,False,0.12339148903671815,False,False,
+EVT0075,2026-09-07 14:20:00,EB107,FIR-2026-1006,Transport Vehicle,Transferred,Officer H. Das,False,False,2026-09-07 13:45:00,Storage Room B,35.0,False,False,0.16557054803562055,False,False,
+EVT0076,2026-09-07 16:01:00,EB107,FIR-2026-1006,Evidence Intake,Transferred,Officer B. Singh,False,False,2026-09-07 14:20:00,Transport Vehicle,101.0,False,False,0.04333075522218721,False,False,
+EVT0077,2026-09-07 16:34:00,EB107,FIR-2026-1006,Storage Room A,Returned,Clerk G. Nair,False,False,2026-09-07 16:01:00,Evidence Intake,33.0,False,False,0.10652822860877847,False,False,
+EVT0078,2026-09-08 04:03:00,EB108,FIR-2026-1007,Court Room,Checked-Out,Officer F. Verma,False,True,,,,False,False,0.0458090916199535,False,True,Odd Hour
+EVT0079,2026-09-08 10:00:00,EB108,FIR-2026-1007,Crime Scene,Collected,Clerk G. Nair,False,False,2026-09-08 04:03:00,Court Room,357.0,False,False,-0.03660129946334578,True,True,Statistical Outlier
+EVT0080,2026-09-08 10:41:00,EB108,FIR-2026-1007,Evidence Intake,Received,Officer B. Singh,False,False,2026-09-08 10:00:00,Crime Scene,41.0,False,False,0.1419437477783893,False,False,
+EVT0081,2026-09-08 11:07:00,EB108,FIR-2026-1007,Storage Room A,Checked-In,Officer F. Verma,False,False,2026-09-08 10:41:00,Evidence Intake,26.0,False,True,0.12514039092367807,False,True,Duplicate Scan
+EVT0082,2026-09-08 11:07:00,EB108,FIR-2026-1007,Evidence Intake,Received,Officer A. Rao,False,False,2026-09-08 11:07:00,Storage Room A,0.0,True,True,0.12079237216315131,False,True,"Impossible Speed, Duplicate Scan"
+EVT0083,2026-09-08 11:17:00,EB108,FIR-2026-1007,Off-site (Unknown),Unauthorized Movement,UNKNOWN,True,False,2026-09-08 11:07:00,Evidence Intake,10.0,False,False,0.006464999148184103,False,True,Unauthorized Location
+EVT0084,2026-09-08 11:45:00,EB108,FIR-2026-1007,Forensic Lab,Transferred,Lab Tech D. Iyer,False,False,2026-09-08 11:17:00,Off-site (Unknown),28.0,False,False,0.130357841433834,False,False,
+EVT0085,2026-09-08 12:29:00,EB108,FIR-2026-1007,Storage Room A,Checked-Out,Officer H. Das,False,False,2026-09-08 11:45:00,Forensic Lab,44.0,False,False,0.1285827942296472,False,False,
+EVT0086,2026-09-08 13:14:00,EB108,FIR-2026-1007,Court Room,Checked-In,Officer C. Mehta,False,False,2026-09-08 12:29:00,Storage Room A,45.0,False,False,0.20173668399917666,False,False,
+EVT0087,2026-09-08 14:27:00,EB108,FIR-2026-1007,Storage Room B,Checked-In,Lab Tech D. Iyer,False,False,2026-09-08 13:14:00,Court Room,73.0,False,False,0.10139672298573271,False,False,
+EVT0088,2026-09-08 14:40:00,EB108,FIR-2026-1007,Transport Vehicle,Checked-In,Officer B. Singh,False,False,2026-09-08 14:27:00,Storage Room B,13.0,False,False,0.1361957660240568,False,False,
+EVT0089,2026-09-08 15:14:00,EB108,FIR-2026-1007,Evidence Intake,Checked-Out,Officer A. Rao,False,False,2026-09-08 14:40:00,Transport Vehicle,34.0,False,False,0.15002153086444098,False,False,
+EVT0090,2026-09-08 15:52:00,EB108,FIR-2026-1007,Storage Room A,Transferred,Officer C. Mehta,False,False,2026-09-08 15:14:00,Evidence Intake,38.0,False,False,0.13098092202986977,False,False,
+EVT0091,2026-09-08 16:35:00,EB108,FIR-2026-1007,Storage Room A,Returned,Officer H. Das,False,False,2026-09-08 15:52:00,Storage Room A,43.0,False,False,0.11073254609366512,False,False,

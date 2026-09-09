@@ -1,0 +1,9 @@
+RFID_ID,Case_ID,Last_Seen,Current_Location,Last_Action,Current_Handler,Total_Events
+EB101,FIR-2026-1000,2026-09-01 14:49:00,Storage Room A,Returned,Lab Tech E. Khan,14
+EB102,FIR-2026-1001,2026-09-02 15:33:00,Storage Room A,Returned,Officer B. Singh,11
+EB103,FIR-2026-1002,2026-09-03 17:47:00,Forensic Lab,Received,Officer B. Singh,12
+EB104,FIR-2026-1003,2026-09-04 16:26:00,Storage Room A,Returned,Officer H. Das,9
+EB105,FIR-2026-1004,2026-09-05 15:03:00,Storage Room A,Returned,Officer F. Verma,8
+EB106,FIR-2026-1005,2026-09-06 15:57:00,Storage Room A,Returned,Lab Tech D. Iyer,13
+EB107,FIR-2026-1006,2026-09-07 16:34:00,Storage Room A,Returned,Clerk G. Nair,11
+EB108,FIR-2026-1007,2026-09-08 16:35:00,Storage Room A,Returned,Officer H. Das,14

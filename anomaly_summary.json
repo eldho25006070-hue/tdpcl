@@ -1,0 +1,21 @@
+{
+  "total_records": 92,
+  "total_anomalies": 19,
+  "anomaly_rate_pct": 20.65,
+  "by_type": {
+    "Unauthorized_Location": 5,
+    "Odd_Hour": 4,
+    "Impossible_Speed": 5,
+    "Duplicate_Scan": 4,
+    "Statistical_Outlier": 8
+  },
+  "affected_evidence_boxes": [
+    "EB101",
+    "EB102",
+    "EB103",
+    "EB105",
+    "EB106",
+    "EB107",
+    "EB108"
+  ]
+}

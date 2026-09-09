@@ -1,0 +1,93 @@
+Event_ID,Timestamp,RFID_ID,Case_ID,Location,Action,Handler
+EVT0000,2026-09-01 00:37:00,EB101,FIR-2026-1000,Storage Room B,Checked-Out,Officer C. Mehta
+EVT0001,2026-09-01 04:05:00,EB101,FIR-2026-1000,Transport Vehicle,Checked-Out,Officer C. Mehta
+EVT0002,2026-09-01 08:00:00,EB101,FIR-2026-1000,Crime Scene,Collected,Officer A. Rao
+EVT0003,2026-09-01 08:27:00,EB101,FIR-2026-1000,Personal Vehicle,Unauthorized Movement,UNKNOWN
+EVT0004,2026-09-01 08:54:00,EB101,FIR-2026-1000,Evidence Intake,Transferred,Officer C. Mehta
+EVT0005,2026-09-01 09:22:00,EB101,FIR-2026-1000,Storage Room A,Checked-Out,Officer B. Singh
+EVT0006,2026-09-01 10:03:00,EB101,FIR-2026-1000,Forensic Lab,Received,Officer A. Rao
+EVT0007,2026-09-01 10:53:00,EB101,FIR-2026-1000,Storage Room A,Transferred,Lab Tech D. Iyer
+EVT0008,2026-09-01 11:40:00,EB101,FIR-2026-1000,Court Room,Checked-Out,Officer A. Rao
+EVT0009,2026-09-01 11:41:00,EB101,FIR-2026-1000,Storage Room B,Checked-Out,Clerk G. Nair
+EVT0010,2026-09-01 13:22:00,EB101,FIR-2026-1000,Transport Vehicle,Checked-In,Lab Tech E. Khan
+EVT0011,2026-09-01 13:42:00,EB101,FIR-2026-1000,Off-site (Unknown),Unauthorized Movement,UNKNOWN
+EVT0012,2026-09-01 14:09:00,EB101,FIR-2026-1000,Evidence Intake,Transferred,Clerk G. Nair
+EVT0013,2026-09-01 14:49:00,EB101,FIR-2026-1000,Storage Room A,Returned,Lab Tech E. Khan
+EVT0014,2026-09-02 01:18:00,EB102,FIR-2026-1001,Evidence Intake,Checked-Out,Officer A. Rao
+EVT0015,2026-09-02 09:00:00,EB102,FIR-2026-1001,Crime Scene,Collected,Lab Tech D. Iyer
+EVT0016,2026-09-02 09:01:00,EB102,FIR-2026-1001,Evidence Intake,Received,Clerk G. Nair
+EVT0017,2026-09-02 10:20:00,EB102,FIR-2026-1001,Storage Room A,Analyzed,Officer F. Verma
+EVT0018,2026-09-02 10:50:00,EB102,FIR-2026-1001,Forensic Lab,Received,Officer H. Das
+EVT0019,2026-09-02 11:20:00,EB102,FIR-2026-1001,Storage Room A,Received,Clerk G. Nair
+EVT0020,2026-09-02 12:12:00,EB102,FIR-2026-1001,Court Room,Checked-Out,Lab Tech E. Khan
+EVT0021,2026-09-02 13:18:00,EB102,FIR-2026-1001,Storage Room B,Checked-Out,Lab Tech D. Iyer
+EVT0022,2026-09-02 13:25:00,EB102,FIR-2026-1001,Transport Vehicle,Received,Lab Tech D. Iyer
+EVT0023,2026-09-02 14:36:00,EB102,FIR-2026-1001,Evidence Intake,Received,Lab Tech D. Iyer
+EVT0024,2026-09-02 15:33:00,EB102,FIR-2026-1001,Storage Room A,Returned,Officer B. Singh
+EVT0025,2026-09-03 11:00:00,EB103,FIR-2026-1002,Crime Scene,Collected,Lab Tech E. Khan
+EVT0026,2026-09-03 11:39:00,EB103,FIR-2026-1002,Evidence Intake,Transferred,Officer F. Verma
+EVT0027,2026-09-03 12:12:00,EB103,FIR-2026-1002,Storage Room A,Transferred,Lab Tech E. Khan
+EVT0028,2026-09-03 12:37:00,EB103,FIR-2026-1002,Forensic Lab,Checked-Out,Officer C. Mehta
+EVT0029,2026-09-03 12:57:00,EB103,FIR-2026-1002,Storage Room A,Transferred,Officer C. Mehta
+EVT0030,2026-09-03 14:01:00,EB103,FIR-2026-1002,Court Room,Checked-In,Lab Tech E. Khan
+EVT0031,2026-09-03 15:06:00,EB103,FIR-2026-1002,Storage Room B,Analyzed,Officer A. Rao
+EVT0032,2026-09-03 15:31:00,EB103,FIR-2026-1002,Transport Vehicle,Received,Officer F. Verma
+EVT0033,2026-09-03 16:47:00,EB103,FIR-2026-1002,Evidence Intake,Analyzed,Officer B. Singh
+EVT0034,2026-09-03 17:11:00,EB103,FIR-2026-1002,Storage Room A,Checked-Out,Officer F. Verma
+EVT0035,2026-09-03 17:47:00,EB103,FIR-2026-1002,Storage Room A,Returned,Officer H. Das
+EVT0036,2026-09-03 17:47:00,EB103,FIR-2026-1002,Forensic Lab,Received,Officer B. Singh
+EVT0037,2026-09-04 11:00:00,EB104,FIR-2026-1003,Crime Scene,Collected,Officer H. Das
+EVT0038,2026-09-04 11:51:00,EB104,FIR-2026-1003,Evidence Intake,Transferred,Lab Tech D. Iyer
+EVT0039,2026-09-04 12:09:00,EB104,FIR-2026-1003,Storage Room A,Analyzed,Clerk G. Nair
+EVT0040,2026-09-04 12:47:00,EB104,FIR-2026-1003,Forensic Lab,Analyzed,Lab Tech D. Iyer
+EVT0041,2026-09-04 13:15:00,EB104,FIR-2026-1003,Storage Room A,Checked-Out,Officer H. Das
+EVT0042,2026-09-04 14:02:00,EB104,FIR-2026-1003,Court Room,Received,Officer B. Singh
+EVT0043,2026-09-04 14:54:00,EB104,FIR-2026-1003,Storage Room B,Transferred,Clerk G. Nair
+EVT0044,2026-09-04 15:37:00,EB104,FIR-2026-1003,Transport Vehicle,Checked-In,Clerk G. Nair
+EVT0045,2026-09-04 16:26:00,EB104,FIR-2026-1003,Storage Room A,Returned,Officer H. Das
+EVT0046,2026-09-05 10:00:00,EB105,FIR-2026-1004,Crime Scene,Collected,Officer A. Rao
+EVT0047,2026-09-05 10:49:00,EB105,FIR-2026-1004,Evidence Intake,Analyzed,Officer F. Verma
+EVT0048,2026-09-05 11:08:00,EB105,FIR-2026-1004,Storage Room A,Analyzed,Clerk G. Nair
+EVT0049,2026-09-05 11:51:00,EB105,FIR-2026-1004,Forensic Lab,Checked-In,Officer A. Rao
+EVT0050,2026-09-05 12:13:00,EB105,FIR-2026-1004,Storage Room A,Checked-Out,Officer C. Mehta
+EVT0051,2026-09-05 13:05:00,EB105,FIR-2026-1004,Court Room,Received,Lab Tech E. Khan
+EVT0052,2026-09-05 13:06:00,EB105,FIR-2026-1004,Storage Room B,Checked-Out,Lab Tech D. Iyer
+EVT0053,2026-09-05 15:03:00,EB105,FIR-2026-1004,Storage Room A,Returned,Officer F. Verma
+EVT0054,2026-09-06 09:00:00,EB106,FIR-2026-1005,Crime Scene,Collected,Officer A. Rao
+EVT0055,2026-09-06 09:36:00,EB106,FIR-2026-1005,Evidence Intake,Checked-In,Officer A. Rao
+EVT0056,2026-09-06 10:07:00,EB106,FIR-2026-1005,Storage Room A,Analyzed,Lab Tech E. Khan
+EVT0057,2026-09-06 10:49:00,EB106,FIR-2026-1005,Forensic Lab,Received,Lab Tech D. Iyer
+EVT0058,2026-09-06 11:25:00,EB106,FIR-2026-1005,Storage Room A,Received,Officer H. Das
+EVT0059,2026-09-06 12:13:00,EB106,FIR-2026-1005,Court Room,Checked-Out,Officer C. Mehta
+EVT0060,2026-09-06 13:05:00,EB106,FIR-2026-1005,Storage Room B,Checked-In,Officer C. Mehta
+EVT0061,2026-09-06 13:15:00,EB106,FIR-2026-1005,Transport Vehicle,Checked-Out,Clerk G. Nair
+EVT0062,2026-09-06 14:14:00,EB106,FIR-2026-1005,Evidence Intake,Checked-Out,Lab Tech D. Iyer
+EVT0063,2026-09-06 14:39:00,EB106,FIR-2026-1005,Storage Room A,Checked-In,Officer F. Verma
+EVT0064,2026-09-06 15:24:00,EB106,FIR-2026-1005,Forensic Lab,Checked-Out,Officer H. Das
+EVT0065,2026-09-06 15:48:00,EB106,FIR-2026-1005,Off-site (Unknown),Unauthorized Movement,UNKNOWN
+EVT0066,2026-09-06 15:57:00,EB106,FIR-2026-1005,Storage Room A,Returned,Lab Tech D. Iyer
+EVT0067,2026-09-07 09:00:00,EB107,FIR-2026-1006,Crime Scene,Collected,Officer B. Singh
+EVT0068,2026-09-07 09:53:00,EB107,FIR-2026-1006,Evidence Intake,Checked-Out,Lab Tech D. Iyer
+EVT0069,2026-09-07 10:05:00,EB107,FIR-2026-1006,Storage Room A,Received,Officer B. Singh
+EVT0070,2026-09-07 10:14:00,EB107,FIR-2026-1006,Off-site (Unknown),Unauthorized Movement,UNKNOWN
+EVT0071,2026-09-07 10:43:00,EB107,FIR-2026-1006,Forensic Lab,Transferred,Officer B. Singh
+EVT0072,2026-09-07 11:14:00,EB107,FIR-2026-1006,Storage Room A,Analyzed,Officer B. Singh
+EVT0073,2026-09-07 11:57:00,EB107,FIR-2026-1006,Court Room,Transferred,Lab Tech E. Khan
+EVT0074,2026-09-07 13:45:00,EB107,FIR-2026-1006,Storage Room B,Transferred,Officer C. Mehta
+EVT0075,2026-09-07 14:20:00,EB107,FIR-2026-1006,Transport Vehicle,Transferred,Officer H. Das
+EVT0076,2026-09-07 16:01:00,EB107,FIR-2026-1006,Evidence Intake,Transferred,Officer B. Singh
+EVT0077,2026-09-07 16:34:00,EB107,FIR-2026-1006,Storage Room A,Returned,Clerk G. Nair
+EVT0078,2026-09-08 04:03:00,EB108,FIR-2026-1007,Court Room,Checked-Out,Officer F. Verma
+EVT0079,2026-09-08 10:00:00,EB108,FIR-2026-1007,Crime Scene,Collected,Clerk G. Nair
+EVT0080,2026-09-08 10:41:00,EB108,FIR-2026-1007,Evidence Intake,Received,Officer B. Singh
+EVT0081,2026-09-08 11:07:00,EB108,FIR-2026-1007,Storage Room A,Checked-In,Officer F. Verma
+EVT0082,2026-09-08 11:07:00,EB108,FIR-2026-1007,Evidence Intake,Received,Officer A. Rao
+EVT0083,2026-09-08 11:17:00,EB108,FIR-2026-1007,Off-site (Unknown),Unauthorized Movement,UNKNOWN
+EVT0084,2026-09-08 11:45:00,EB108,FIR-2026-1007,Forensic Lab,Transferred,Lab Tech D. Iyer
+EVT0085,2026-09-08 12:29:00,EB108,FIR-2026-1007,Storage Room A,Checked-Out,Officer H. Das
+EVT0086,2026-09-08 13:14:00,EB108,FIR-2026-1007,Court Room,Checked-In,Officer C. Mehta
+EVT0087,2026-09-08 14:27:00,EB108,FIR-2026-1007,Storage Room B,Checked-In,Lab Tech D. Iyer
+EVT0088,2026-09-08 14:40:00,EB108,FIR-2026-1007,Transport Vehicle,Checked-In,Officer B. Singh
+EVT0089,2026-09-08 15:14:00,EB108,FIR-2026-1007,Evidence Intake,Checked-Out,Officer A. Rao
+EVT0090,2026-09-08 15:52:00,EB108,FIR-2026-1007,Storage Room A,Transferred,Officer C. Mehta
+EVT0091,2026-09-08 16:35:00,EB108,FIR-2026-1007,Storage Room A,Returned,Officer H. Das
